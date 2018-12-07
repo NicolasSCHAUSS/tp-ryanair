@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 import dao.BookingDAO;
 import dao.FlightDAO;
-import dao.PassengerDAO;
+//import dao.PassengerDAO;
 
 public class Main {
 
@@ -13,7 +13,7 @@ public class Main {
 		Scanner scan = new Scanner(System.in);
 		FlightDAO fdao = new FlightDAO();
 		BookingDAO bdao = new BookingDAO();
-		PassengerDAO pdao = new PassengerDAO();
+		//PassengerDAO pdao = new PassengerDAO();
 		
 		boolean exit = false;
 		while(exit!=true)
